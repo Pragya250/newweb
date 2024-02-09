@@ -1,0 +1,17 @@
+body{
+    background-color:coral;
+}
+h1{
+    background-color: aqua;
+}
+.header{
+    background-color: rebeccapurple;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 60px;
+}

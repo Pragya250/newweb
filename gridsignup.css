@@ -1,0 +1,36 @@
+body{
+    background-color:skyblue;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    width: 500px;
+    height: 80vh;
+    padding-left: 30px ;
+}
+input{
+
+    border:2px solid grey ;
+    width: 20em;
+    height: 2em;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px 2px grey;
+}
+.lg{
+    width: 25em;
+    height: 3em;
+    border-radius: 20px;
+    box-shadow: 3px 4px 5px 2px grey;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lg:hover{
+
+    color: #e9f4fb;
+    transition: .5s;
+    background:linear-gradient(skyblue,pink)
+}

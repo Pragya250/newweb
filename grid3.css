@@ -1,0 +1,130 @@
+.main{
+background-color: whitesmoke;
+height: 100vh;
+display: grid;
+grid-template-columns: repeat(2,250px auto);
+}
+
+.item1{
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    background-color:black;
+    color: white;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background-color: yellow;
+    grid-row-end: 1;
+    grid-row-end: 2;
+    height: 10vh;
+}
+p1{
+    padding: 10px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemss{
+background-color: whitesmoke;
+height: 100vh;
+margin-left: 30px;
+margin-top: 30px;
+margin-bottom: 10px;
+display: grid;
+grid-template-columns: repeat(6,auto);
+grid-template-rows: repeat(6,auto);
+
+}
+.itemss{
+        /* column-gap: 250px; */
+        /* padding: 30px; */
+        
+}
+.item3{
+    border: black solid;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: grey;
+    border: black ; 
+    
+}
+.item-3{
+    grid-column-start:1;
+    grid-column-end: 6;
+    /* padding-right: 25px; */
+    border: black ;
+}
+.item-4{
+    grid-column-start:1;
+    grid-column-end: 6;
+    background-color: aqua;
+    border: black ;
+}
+.item-6{
+    grid-column-start:1;
+    grid-column-end: 6;
+    background-color: aqua;
+    border: black ;
+}
+.item-2{
+    grid-column-start:1;
+    grid-column-end: 6;
+    background-color: aqua;
+    /* overflow: hidden; */
+    border: black ;
+}
+.item-5{
+    grid-column-start:1;
+    grid-column-end: 6;
+    border: black ;
+}
+.aa{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /* margin-left: 28px; */
+    
+}
+.aa,.bb,.cc,.dd,.ee li{
+    padding: 50px;
+}
+.bb{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.cc{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.ee{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.ff{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+p31{
+    color: white;
+    font-size: 25px;
+}
+.cl{
+    color: black;
+    text-decoration: none;
+}

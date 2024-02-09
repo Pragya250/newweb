@@ -1,0 +1,24 @@
+.na{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform: scale(0.5);
+}
+button:hover{
+    background-color: red;
+    color: wheat;
+    transform: rotate(80deg);
+}
+a.link{
+    color:red;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+input:focus{
+    background-color: brown;
+}

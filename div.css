@@ -1,0 +1,8 @@
+.main ul{
+    list-style: none;
+}
+.main ul li{
+    display: inline ;
+    display: block;
+     padding: 20px;
+}

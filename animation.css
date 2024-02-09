@@ -1,0 +1,43 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes slide{
+    0%{
+        left:0px;
+        top: 0px;
+        background-color:red;
+
+    }
+    20%{
+        left: 300px;
+        top: 300px;
+        background-color: blue;
+        border-radius: 300px;
+
+    }
+    60%{
+        left: 600px;
+        top:0px;
+        background-color: yellow;
+        border-radius: 20px;
+    }
+    80%{
+        top:500px;
+        left:600px;
+        background-color: green;
+        border-radius: 500px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: bisque;
+    }
+
+}

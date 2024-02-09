@@ -1,0 +1,267 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+h1{
+    font-size: 30px;
+    color: green;
+    display: inline;
+    margin-left: 30px;
+}
+ul li{
+    display: flex;
+    display: inline;
+    padding: 30px;
+}
+p0{
+    font-size: 60px;
+}
+p1{
+    font-size: 40px;
+    color: black;
+}
+.secondmain{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdmain{
+    align-items: center;
+}
+p2{
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+p3{
+    font-size: 20px;
+}
+.e{
+    display: flex;
+    justify-content: space-around;
+}
+p4{
+    font-size: 50px;
+}
+p5{
+    font-size: 20px;
+}
+.f{
+    display: flex;
+    justify-content: space-around;
+}
+.fourthmain{
+    background-color: aliceblue;
+    height: 900px;
+}
+.one{
+    height: 400px;
+}
+.bek{
+    background-color: rgb(10, 143, 10);
+    color: white;
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+}
+p8{
+    font-size: 30px;
+}
+.bdo{
+    background-color: rgb(10, 143, 10);
+    color: white;
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+}
+p9{
+    font-size: 30px;
+}
+.bteen{
+    background-color: rgb(10, 143, 10);
+    color: white;
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+}
+p10{
+    font-size: 30px;
+}
+.chaar{
+    height: 600px;
+    background-color:azure;
+    
+}
+.panch{
+    height: 600px;
+    background-color:azure;
+
+}
+.six{
+    height: 600px;
+    background-color:azure;
+}
+p11{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 30px;
+    
+}
+p12{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 17px;
+}
+p13{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 30px;
+}
+p14{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 17px;
+}
+p15{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 30px;
+}
+p16{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:Verdana;
+    font-size: 17px}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.seven
+{
+    align-items: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana;
+    font-size: 15px;
+
+}
+.abc{
+    font-size: 30px;
+}
+.abd{
+    font-size: 30px;
+}
+.eight{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana;
+}
+.nine{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana;
+}
+.mainfooter{
+    height: 530px;
+    background-color: rgb(3, 3, 73);
+}
+p55{
+    color: white;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+p56{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px
+}
+p57{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p58{
+    color: white;
+    margin-left: 20px
+}
+p59{
+    margin-left: 800px;
+}
+p60{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.subs:hover{
+    background-color: rgb(25, 228, 25);
+    height: 30px;
+    width: 80px;
+    transform: scale(1.1);
+}
+input{
+    background-color: rgb(3, 3, 73);
+}
+p70{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.imga{
+    border-radius: 300px;
+}
+.imgb{
+    border-radius: 300px;
+}
+.imgc{
+    border-radius: 300px;
+}
+input:focus{
+    background-color: beige;
+    color: black;
+}
+.bek:hover
+{
+transform: scale(1.2);
+}
+.bdo:hover{
+    transform: scale(1.2);
+    }
+.bteen:hover{
+    transform: scale(1.2);
+    }
+.subs{
+    background-color: green;
+}
+.burger-button{
+    display: none;
+    padding: 10px; 
+    height: 21px;
+    width: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    margin-left:1450px;
+    
+}
+.burger-button .bar{
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    margin: 2px;
+}
+@media(max-width:1500px)
+{
+    .burger-button{
+        display: flex;
+    }
+    .icons{
+        display: none;
+    }
+    .a{
+        display: none;
+    }
+
+}

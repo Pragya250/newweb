@@ -1,0 +1,45 @@
+body{
+    background-color: papayawhip;
+}
+
+table{
+    height: 50vh;
+    width: 400px;
+    margin-top: 160px;
+    margin-left: 400px;
+}
+.a{
+    width: 300px;
+    font-size:20px;
+}
+.b{
+    width: 300px;
+    font-size:20px;
+}
+.c{
+    width: 300px;
+    font-size:20px;
+}
+.d{
+    width: 300px;
+    font-size:20px;
+}
+.e{
+    width: 300px;
+    font-size:20px;
+}
+.ek{
+    color: black;
+}
+.do{
+    color: brown;
+}
+.teen{
+    color: brown;
+}
+.char{
+    color: brown;
+}
+.pach{
+    color: brown;
+}

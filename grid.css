@@ -1,0 +1,31 @@
+
+
+.main{
+    background-color: yellowgreen;
+    height: 100vh;
+    padding: 30px; 
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(3,auto);
+}
+.item{
+    background-color: red;
+    border: 2px solid;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-3{
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+.item-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item-6{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
